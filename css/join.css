@@ -1,0 +1,132 @@
+@charset "utf-8";
+.w1440 {
+    width: 1440px;
+    margin: 0 auto;
+}
+.w795 {
+    width: 795px;
+    margin: 0 auto;
+}
+#join_wrap .top_agree {
+    margin-bottom: 144px;
+}
+#join_wrap h1+p {
+    text-align: center;
+    margin-bottom: 120px;
+}
+#join_wrap h1 {
+    font-size: 32px;
+    font-weight: 700;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 260px;
+}
+#join_wrap form {
+    margin-bottom: 144px;
+}
+#join_wrap .policy {
+    margin-top: 27px;
+}
+#join_wrap #all-agree {
+    margin-top: 38px;
+    margin-left: 3px;
+}
+#join_wrap .bt_btn , #join_wrap button.agree_btn {
+    width: 795px;
+    height: 65px;
+    background-color: #222;
+    color: #fff;
+    margin-top: 40px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#join_wrap .ckbox {
+    width: 795px;
+    height: 230px;
+    background-color: #fbfbfb;
+    line-height: 2.5;
+}
+#join_wrap .ckbox input[type='checkbox']+b {
+    text-decoration: underline;
+}
+#join_wrap .container table input {
+    width: 100%;
+}
+#join_wrap .all a {
+    font-size: 16px;
+    margin-right: 0;
+}
+#join_wrap .ckbox input {
+    margin-left: 40px;
+    margin-bottom: 28px;
+}
+#join_wrap .choice {
+    font-size: 14px;
+    color: #888888;
+}
+#join_wrap .select {
+    font-size: 14px;
+    border-bottom: 1px solid #000;
+    color: #222;
+}
+#join_wrap .all-agree {
+    margin-bottom: 32px;
+}
+#join_wrap .container table input {
+    border-width: 0;
+    height: 65px;
+    font-size: 15px;
+}
+#join_wrap #gender_f, #join_wrap #gender_m {
+    width: 20px;
+    height: 20px;
+    margin-top: -1px;
+    vertical-align: middle;
+}
+#join_wrap label.gender {
+    line-height: 60px;
+    margin-left: 20px;
+    font-size: 15px;   
+}
+#join_wrap .container table {
+    width: 100%;
+}
+#join_wrap .container table tr td {
+    border-bottom: 1px solid #e1e1e1;
+}
+#join_wrap #sendmessage, #join_wrap #idCheck {
+    width: 170px;
+    height: 58px;
+    background-color: #ddd;
+    cursor: pointer;
+}
+#join_wrap span {
+    font-size: 15px;
+    color: #757575;
+}
+#join_wrap input {
+    outline: none;
+    border-bottom: 1px solid #000;
+}
+.pw_hide {
+    width: 20px;
+    height: 20px;
+}
+/* 인풋 박스 포커스 색상 효과 */
+input:focus::-webkit-input-placeholder {
+    color: dodgerblue;
+}
+input[type="radio"],label {
+    color: black;
+    cursor: pointer;
+}
+/* 패스워드 눈 CSS */
+#pw {
+    width: 300px;
+}
+.pw_hide {
+    cursor: pointer;
+}
+#email {
+	width: 430px !important;
+}

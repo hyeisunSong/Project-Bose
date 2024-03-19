@@ -1,0 +1,187 @@
+@charset "utf-8";
+
+.w1440 {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+#cart_wrap {
+    margin-top: 70px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+#cart_wrap .shopTitle {
+    font-size: 24px;
+    color: #181818;
+    line-height: 1.6;
+    position: relative;
+    margin-bottom: 24px;
+}
+#cart_wrap .shopTitle .shopCnt {
+    display: inline-block;
+    background-color: #000;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 14px;
+    text-align: center;
+    margin-left: 10px;
+    position: absolute;
+    top: 8px;
+}
+
+#cart_wrap .shopTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+#cart_wrap .shopTable th {
+    height: 45px;
+    line-height: 45px;
+    border-top: 1px solid rgba(24,24,24,.2);
+    border-bottom: 1px solid rgba(24,24,24,.2);
+}
+#cart_wrap .shopTable th:nth-child(1),
+#cart_wrap .shopTable th:nth-child(2),
+#cart_wrap .shopTable td:nth-child(1),
+#cart_wrap .shopTable td:nth-child(2)
+{
+    text-align: left;
+}
+#cart_wrap .shopTable td:nth-child(1) {
+    text-align: left;
+    border-bottom: 1px solid rgba(24,24,24,.2);
+} 
+#cart_wrap .shopTable td:nth-child(n + 2) {
+    vertical-align: middle;
+    text-align: center;
+    border-bottom: 1px solid rgba(24,24,24,.2);
+    border-right: 1px solid rgba(24,24,24,.2);
+}
+#cart_wrap .shopTable td:last-child {
+    border-right: none;
+}
+
+#cart_wrap .chBtn {
+    display: block;
+    width: 100px;
+    height: 30px;
+    border: 1px solid rgba(24,24,24,.2);
+    font-size: 12px;
+    margin: 12px auto 0;
+    cursor: pointer;
+}
+#cart_wrap .chBtn.on {
+    background-color: #181818;
+    color: #fff;
+}
+
+#cart_wrap .cartShopWrap {
+    margin: 16px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#cart_wrap .cartShopWrap .cartShopImg {
+    width: 80px;
+    height: 80px;
+    margin-right: 16px;
+}
+#cart_wrap .cartShopWrap .cartShopImg img {
+    width: 100%;
+    height: 100%;
+}
+
+#cart_wrap .cartShopWrap .cartShopDesc {
+    width: 740px;
+    text-align: left;
+}
+#cart_wrap .cartShopWrap .cartShopDesc p {
+    height: 34px;
+}
+
+#cart_wrap .cartShopWrap .cartShopClose {
+    width: 40px;
+    font-size: 17px;
+}
+
+#cart_wrap .shopBtnDelArea {
+    margin: 16px 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+#cart_wrap .shopBtnDelArea button {
+    padding: 8px 7px;
+    border: 1px solid rgba(24,24,24,.2);
+    font-size: 12px;
+    cursor: pointer;
+}
+#cart_wrap .shopBtnDelArea button:hover {
+    border: 1px solid #181818;
+}
+#cart_wrap .shopBtnDelArea p {
+    font-size: 13px;
+    line-height: 1.7;
+    color: rgba(24,24,24,.7);
+}
+
+#cart_wrap .totalTable {
+    width: 100%;
+    border-top: 1px solid #181818;
+    border-bottom: 1px solid #181818;
+}
+#cart_wrap .totalTable th {
+    text-align: left;
+    height: 41px;
+    line-height: 41px;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(24,24,24,.2);
+}
+#cart_wrap .totalTable td > div {
+    margin: 32px 0;
+    display: flex;
+    justify-content: center;
+}
+#cart_wrap .totalTable td > div div {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+#cart_wrap .totalTable td > div p {
+    width: 70px;
+    text-align: center;
+}
+#cart_wrap .totalTable td > div div span:nth-child(2) {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: rgba(24,24,24,.7);
+}
+#cart_wrap .payBox {
+    margin: 40px 0 50px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+#cart_wrap .payBox .order {
+    width: 280px;
+    height: 48px;
+    background: #000;
+    color: #fff;
+    margin: 0 auto;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+#cart_wrap .payBox .buy {
+    width: 280px;
+    height: 48px;
+    margin: 0 auto;
+    margin-bottom: 7px;
+    background: url(../images/npay.png) no-repeat center / cover;
+    cursor: pointer;
+}
+#cart_wrap .payBox .continue {
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: underline;
+}

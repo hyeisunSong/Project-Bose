@@ -1,0 +1,312 @@
+@charset "utf-8";
+
+/* safe area */
+.w1440 {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+#header_wrap {
+    font-family: 'Nanum Gothic', sans-serif;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9990;
+    width: 100%;
+}   
+
+/* popup */
+#header_wrap .popupArea {
+    background: #023922;
+    line-height: 40px;
+}
+#header_wrap .popupArea > div {
+    height: 40px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+}
+#header_wrap .popupArea > div span {
+    position: relative;
+    font-size: 10px;
+    margin-left: 10px;
+    bottom: 3px;
+}
+#header_wrap .popupArea img {
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+    filter: invert(100%) sepia(7%) saturate(26%) hue-rotate(251deg) brightness(106%) contrast(100%);
+    margin-bottom: 2px;
+}
+#header_wrap .popupArea p:last-child img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/* logo & icon */
+#header_wrap .logoArea {
+    background: rgba(0,0,0,0.5);
+    /* background: #000; */
+    padding: 10px 0;
+}
+#header_wrap .logoArea > div {
+    display: flex;
+    justify-content: space-between;
+}
+#header_wrap .logoArea ul {
+    display: flex;
+}
+#header_wrap .logoArea ul li a {
+    display: inline-block;
+    line-height: 40px;
+}
+#header_wrap .logoArea ul li a img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    filter: invert(100%) sepia(7%) saturate(26%) hue-rotate(251deg) brightness(106%) contrast(100%);
+}
+#header_wrap .logoArea ul li:nth-child(2) {
+    margin: 0 15px;
+}
+
+/* GNB */
+#header_wrap .gnbArea {
+    background: rgba(0,0,0,0.5);
+    /* background: #000; */
+    height: 40px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+#header_wrap .gnbArea div {
+    display: flex;
+    justify-content: center;
+}
+#header_wrap .gnbArea nav {
+    height: 40px;
+    position: relative;
+}
+#header_wrap .gnbArea nav > ul {
+    display: flex;
+    justify-content: space-between;
+}
+#header_wrap .gnbArea nav ul li {
+    width: 120px;
+    line-height: 40px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+}
+#header_wrap .gnbArea nav ul li a {
+    display: inline-block;
+    width: 100%;
+}
+#header_wrap .gnbArea nav .subMenu {
+    height: 262px;
+    position: absolute;
+    background: #000;
+    border: 2px solid #023922;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+    display: none;
+    z-index: 999;   
+    /* top: 40px; */
+    left: -1.5px;
+}
+#header_wrap .gnbArea nav .subMenu > ul {
+    display: flex;
+}
+#header_wrap .gnbArea .menu2 div {
+    width: 406px;
+}
+
+#header_wrap .subNav_support {
+    display: flex;
+    flex-flow: row wrap;
+}
+#header_wrap .subNav_support li {
+    margin: 10px 5px;
+    /* border: 1px solid #023922; */
+    padding: 15px 0;
+    border-radius: 10px;
+}
+#header_wrap .subNav_support img {
+    width: 44px;
+    height: 44px;
+    filter: invert(43%) sepia(100%) saturate(1209%) hue-rotate(126deg) brightness(95%) contrast(98%);
+}
+#header_wrap .gnbArea .menu2 .subMenu > ul {
+    padding: 0 5px;
+}
+#header_wrap .gnbArea .menu2 .subMenu p {
+    font-size: 12px;
+}
+#header_wrap .subNav_support li:nth-child(n + 4) {
+    margin-top: 0;
+}
+/* 수정 */
+#header_wrap .gnbArea .menu1 .subMenu li {
+    padding: 10px 0;
+}
+
+
+/* 검색영역 */
+.searchPop {
+    background: rgba(0,0,0,.7);
+    width: 100%;
+    height: 310px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    color: #fff;
+    display: none;
+}
+.searchPop .searchTxtArea {
+    position: relative;
+    top: 160px;
+    width: 600px;
+    margin: 0 auto;
+}
+.searchPop .searchTxtArea input {
+    width: 500px;
+    height: 60px;
+    border: 0;
+    outline: 0;
+    text-align: center;
+    font-size: 24px;
+}
+.searchPop img {
+    width: 45px;
+    height: 45px;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-top: -10px;
+    margin-left: 20px;
+    filter: invert(100%) sepia(7%) saturate(26%) hue-rotate(251deg) brightness(106%) contrast(100%);
+}
+.searchPop .recommandArea {
+    position: relative;
+    top: 200px;
+    width: 600px;
+    margin: 0 auto;
+}
+.searchPop .recommandArea span {
+    border: 1px solid #fff;
+    margin: 0 6px;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.searchPop .closeX {
+    position: absolute;
+    top: 6px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+
+/* 공통 */
+/* 최상단 이동 버튼 */
+.floButtonArea {
+    width: 64px; height: 64px;
+    background-color: #fff;
+    border: 1px solid #000;
+    position: fixed;
+    bottom: 104px;
+    right: 30PX;
+    z-index: 99;
+    display: none;
+    border-radius: 50%;
+}
+.floBtn {
+    cursor: pointer;
+}
+/* 챗봇 */
+.chatButtonArea {
+    position: fixed;
+    bottom: 30px;
+    right: 30PX;
+    z-index: 9999;
+}
+.chatBtn {
+    cursor: pointer;
+}
+
+
+
+/* GNB hover 효과 */
+.menu a {
+    color: rgba(255, 255, 255, 0.8);
+    position: relative;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.effect a {
+    /* color: #5ae0a8; */
+    text-shadow: none;
+}
+
+.effect a:before {
+    /* color: #fff; */
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+    content: attr(data-hover);
+    position: absolute;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+    -moz-transition: -moz-transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+    pointer-events: none;
+}
+
+.effect a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: #5ae0a8;
+    opacity: 0;
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    transform: translateY(5px);
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+    -moz-transition: -moz-transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+    pointer-events: none;
+}
+
+.effect a:hover:before, .effect a:focus:before {
+    opacity: 0;
+    -webkit-transform: translateY(-2px);
+    -moz-transform: translateY(-2px);
+    transform: translateY(-2px);
+}
+
+.effect a:hover:after, .effect a:focus:after {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    transform: translateY(0px);
+}
+.subMenu .subNav li:hover a {
+    color: #5ae0a8;
+}
+.menu1 .menu li:hover a {
+    color: #5ae0a8;
+}
+/* 준비중 */
+.readyImg {
+    position: fixed;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -40%);
+    z-index: 99999;
+    display: none;
+}

@@ -1,0 +1,130 @@
+@charset "utf-8";
+.w600{
+    width: 600px;
+    margin: 0 auto;
+}
+.feedback_wrap{
+    font-family: "Nanum Gothic",sans-serif;
+    padding: 0 42px;
+}
+.feedback_header{
+    margin-top: 41px;
+}
+.feedback_lang{
+    margin: 26px 0 17px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+.feedback_q1 p, .feedback_q2 p,.feedback_q3 p{
+    font-size:15px;
+    margin-bottom: 17px;
+}
+.feedback_q1 label,.feedback_q2 label, .feedback_q3 label{
+    font-size: 14px;
+}
+.grey1{
+    border: 1px solid #000;
+    height: 1px;
+    border-color: #D9D9D9;
+    margin: 10px 0 16px;
+}
+
+.feedback_q2 .level{
+    display: flex;
+    justify-content: space-between;
+}
+.feedback_q2 .level p{
+    font-size: 13px;
+}
+
+.grey2{
+    border: 1px solid #000;
+    height: 1px;
+    border-color: #D9D9D9;
+    margin: 8px 0 15px;
+}
+.feedback_q3 input{
+    width: 516px;
+    height: 52px;
+    border-color: #D9D9D9;
+    margin-bottom: 30px;
+}
+.feedback_btn{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.feedback_btn div button{
+    font-size: 13px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 4px;
+    width: 112px;
+    height: 35px;
+    margin-bottom: 41px;
+    cursor: pointer;
+}
+.feedback_btn .feedback_btn1{
+    border: 1px solid #000;
+    background-color: #fff;
+    margin-left: 18px;
+    color: #000;
+}
+.feedback_footer{
+    display: flex;
+    justify-content: left;
+    font-size: 16px;
+    margin-bottom: 69px;
+}
+
+.q2_level{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.feedback_q1 input{
+    accent-color: #000;
+}
+.q2_level input{
+    accent-color: #000;
+}
+.q2_level div{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+/* feebackj bar */
+.feedbackbar{
+    font-family: 'Nanum Gothic', sans-serif;
+    width: 35px; height: 130px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    background-color: #070707;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    line-height: 3;
+    /* 포지션 */
+    position: fixed;
+    right: 0; top: 50%; z-index: 9999;
+}
+
+.feedback_wrap {
+    background: #fff;
+    width: 600px;
+    position: fixed;
+    right: 0; top: 50%;
+    transform: translateY(-50%);
+    right: -600px;
+    z-index: 9999999999999;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: right 0.3s ease;
+}
+
+
+

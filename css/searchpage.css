@@ -1,0 +1,281 @@
+@charset "utf-8";
+
+#search_wrap {
+    margin-top: 90px;
+    }
+#search_wrap .searchArea {
+    width: 650px;
+    margin: 0 auto;
+    position: relative;
+}
+#search_wrap #searchText {
+    width: 600px;
+    height: 80px;
+    border: 0;
+    outline: 0;
+    font-size: 32px;
+    font-weight: 700;
+    color: #222;
+    border-bottom: 2px solid #000;
+text-align: center;
+}
+#search_wrap .searchMsg {
+    padding-bottom: 110px;
+    border-bottom: 1px solid #ccc;
+
+}
+#search_wrap .searchArea button {
+    width: 32px;
+    height: 80px;
+    position: absolute;
+    right: 60px;
+    cursor: pointer;
+}
+#search_wrap .searchArea button img {
+    width: 140%;
+}
+#search_wrap .searchMsg p {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+#search_wrap .searchMsg p strong {
+    color: #5865f5;
+}
+
+#search_wrap .itemListAll {
+    margin: 70px 0 110px;
+}
+
+/* 상품리스트 공통 */
+#search_wrap .itemListAll {
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+#search_wrap .item {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+#search_wrap .itemImg {
+    width: 360px;
+}
+#search_wrap .itemImg img {
+    width: 345px;
+}
+#search_wrap .itemColors {
+    width: 345px;
+    padding: 14px 0 20px;
+}
+#search_wrap .itemName {
+    width: 345px;
+    color: #181818;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+#search_wrap .itemName a:hover {
+    text-decoration: underline;
+}
+#search_wrap .itemPrice {
+    width: 345px;
+    height: 24px;
+    line-height: 24px;
+}
+#search_wrap .itemPrice span:first-child {
+    font-weight: 900;
+}
+#search_wrap .itemStatus {
+    margin: 8px 0;
+    width: 345px;
+    height: 29px;
+    line-height: 29px;
+}
+#search_wrap .itemReview {
+    margin-top: 12px;
+    width: 345px;
+    height: 15px;
+    line-height: 15px;
+    margin-bottom: 30px;
+}
+#search_wrap .reviewIcon {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url(../images/icon/comment.svg) no-repeat center / cover;
+    cursor: pointer;
+    filter: invert(48%) sepia(0%) saturate(1570%) hue-rotate(194deg) brightness(93%) contrast(91%);
+}
+#search_wrap .reviewCount {
+    cursor: pointer;
+    margin-left: 3px;
+    vertical-align: top;
+    font-size: 13px;
+    filter: invert(48%) sepia(0%) saturate(1570%) hue-rotate(194deg) brightness(93%) contrast(91%);
+}
+#search_wrap .itemCart {
+    display: inline-block;
+    width: 17px;
+    height: 16px;
+    margin-left: 7px;
+    background: url(../images/icon/cart.svg) no-repeat center / cover;
+    cursor: pointer;
+    filter: invert(48%) sepia(0%) saturate(1570%) hue-rotate(194deg) brightness(93%) contrast(91%);
+}
+
+/* 장바구니 팝업 */
+#search_wrap .cartWrap {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999999;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    overflow: hidden;
+    font-family: 'Nanum Gothic', sans-serif;
+    display: none;
+}
+#search_wrap .cartWrap .cartBody {
+    width: 1200px;
+    height: 709px;
+    background: #fff;
+    margin: 80px auto;
+}
+#search_wrap .cartWrap .cartBody > p {
+    padding: 25px 45px 0 0;
+    text-align: right;
+}
+#search_wrap .cartWrap .cartBody > p > span {
+    display: inline-block;
+    width: 20px;
+    height: 24px;
+    font-size: 32px;
+    cursor: pointer;
+}
+#search_wrap .cartWrap .cartSeperate {
+    padding: 35px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#search_wrap .cartWrap .cartImg, #search_wrap .cartTxt {
+    width: 535px;
+    height: 535px;
+}
+#search_wrap .cartWrap .cartImg img {
+    width: 100%;
+    height: 100%;
+}
+#search_wrap .cartWrap .cartTxt {
+    padding-left: 5%;
+}
+#search_wrap .cartWrap .cartTitle {
+    margin-top: 10px;
+    font-size: 26px;
+    color: #181818;
+}
+#search_wrap .cartWrap .cartPriceArea {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 26px;
+    font-weight: 800;
+}
+#search_wrap .cartWrap hr {
+    width: 100%;
+    height: 2px;
+    border-bottom: 1px solid #eee;
+    margin: 40px 0;
+}
+#search_wrap .cartWrap hr ~ p {
+    height: 25px;
+    color: rgba(24,24,24,.7);
+}
+#search_wrap .cartWrap hr ~ p strong {
+    font-weight: 600;
+    margin-right: 8px;
+    color: #181818;
+}
+#search_wrap .cartWrap h3 {
+    margin: 40px 0 8px;
+    font-size: 12px;
+    font-weight: 900;
+}
+#search_wrap .cartWrap .selectBox {
+    margin-bottom: 24px;
+    height: 38px;
+    font-size: 14px;
+    position: relative;
+}
+#search_wrap .cartWrap .arrowBtn {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 7px;
+    right: 15px;
+    cursor: pointer;
+    transition: all .3s;
+}
+#search_wrap .cartWrap .arrowBtn.arrowDown {
+    background: url(../images/icon/arrow_down.svg) no-repeat center / cover;
+}
+#search_wrap .cartWrap .arrowBtn.arrowUp {
+    background: url(../images/icon/arrow_up.svg) no-repeat center / cover;
+}
+#search_wrap .cartWrap .selectBox button {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    padding: 8px 24px 8px 12px;
+    border: 1px solid rgba(24,24,24,.2);
+    cursor: pointer;
+}
+#search_wrap .cartWrap .dropDownBox {
+    height: 189px;
+    border: 1px solid #181818;
+    background: #fff;
+    display: none;
+}
+#search_wrap .cartWrap .dropDownBox div:not(:last-child) {
+    height: 62px;
+    border-bottom: 1px solid rgba(24,24,24,.2);
+}
+#search_wrap .cartWrap .dropDownBox a {
+    display: block;
+    padding: 9px 12px;
+    color: #181818;
+}
+#search_wrap .cartWrap .dropDownBox a span {
+    display: block;
+}
+#search_wrap .cartWrap .dropDownBox a span:last-child {
+    margin-top: 8px;
+    font-weight: 800;
+}
+#search_wrap .cartWrap .buyBtns {
+    display: flex;
+    justify-content: space-between;
+}
+#search_wrap .cartWrap .buyBtns button {
+    width: 150px;
+    height: 46px;
+    font-size: 14px;
+    padding: 12px 0;
+    color: #181818;
+    border: 1px solid rgba(24,24,24,.2);
+    cursor: pointer;
+}
+#search_wrap .cartWrap .buyBtns button.on {
+    background: #181818;
+    color: #fff;
+}
+#search_wrap .cartWrap .buyBtns button:hover {
+    border: 1px solid #181818;
+}
+#search_wrap .cartWrap h4 {
+    margin-top: 23px;
+    color: #212121;
+    line-height: 1.5;
+}

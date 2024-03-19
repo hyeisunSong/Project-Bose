@@ -1,0 +1,137 @@
+@charset "utf-8";
+.w440{
+    width: 440px;
+    margin: 0 auto;
+}
+.login2_wrap{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Nanum Gothic',sans-serif;
+}
+
+/* 헤더 */
+.login2_header{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.login2_header h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login2_header img{
+    position: absolute;
+    top: 0;
+    right: 3%;
+    cursor: pointer;
+}
+
+
+/* tab 기본 스타일 */
+.login2_tab{
+    width: 100%;
+    font-size: 0;
+}
+
+.login2_sec1 p{
+    font-size: 17px;
+    text-align: center;
+    color: #DDDDDD;
+    margin-bottom: 20px;
+}
+
+.login2_tab input[type = 'radio']{
+    display: none;
+}
+.login2_sec1 input[type='text'],
+.login2_sec2 input[type='text']{
+    width: 360px;
+}
+.login2_content input{
+    accent-color: #000;
+}
+.login2_content input[type="radio"]{
+    cursor: pointer;
+}
+.login2_btn{
+    width: 380px;
+    height: 40px;
+    margin-bottom: 40px;
+    border: 1px solid #000;
+}
+.login2_btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.login2_sec1 #login2_email,
+.login2_sec2 #login2_password,
+.login2_sec1 #login2_num{
+    margin-bottom: 20px;
+}
+.login2_sec2 #login2_password{
+    margin-top: 10px;
+}
+.login2_wrap input[type="text"] {
+    width: 380px;
+    height: 36px;
+    border: 1px solid #E0E0E0;
+}
+.findByN #nameornick {
+    border-bottom: none;
+}
+
+/* hr 구분선 */
+.login2_line{
+    border-top: 0.5px solid;
+    border-color: #DDDDDD;
+    height: 1px;
+    margin: 20px 0 20px;
+}
+
+/* 탭 누를 시효과css */
+.login2_tab label{
+    font-size: 16px;
+    font-weight: bold;
+    width: 190px;
+    height: 40px;
+    display: inline-block;
+    margin: 0 0 10px;
+    padding: 11px 37px;
+    text-align: center;
+    color: #757781;
+    border: 1px solid;
+    cursor: pointer;
+    background-color: #F3F3F3;
+    border: 1px solid #dddddd;
+    border-bottom: 1px solid #000;
+}
+
+.login2_tab input[type="radio"]:checked + label{
+    background-color: #ffffff;
+    border: 1px solid #000;
+    border-bottom-color: #000;
+    color: #000;
+    border-bottom: none;
+}
+.login2_sec1{ 
+    width: 380px;
+    margin: 0 auto;
+    text-align: left;
+    font-weight: bold;
+}
+.login2_sec2{
+    padding: 0 20px;
+
+}
+/* 초기상태  */
+.login2_sec2{
+    display: none;
+}
+.findByN {
+    display: none;
+}
