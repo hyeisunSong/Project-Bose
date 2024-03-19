@@ -33,6 +33,12 @@
   <img width="50%" src="https://github.com/hyeisunSong/Project-Bose/assets/163226022/26136572-1506-4bfd-beeb-9264f1129e59" alt="Project_bose7" />
 </p>
 
+
+https://github.com/hyeisunSong/Project-Bose/assets/163226022/80175b4e-758b-48c9-a2d5-84a8a4817351
+
+
+
+
 ## 기능소개 - 로그인
 <p aline="center">
   <img width="50%" src="https://github.com/hyeisunSong/Project-Bose/assets/163226022/6c08a3c3-a59b-419c-9c15-8e6a84571f87" alt="Project_bose7" />
