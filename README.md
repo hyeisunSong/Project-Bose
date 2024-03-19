@@ -28,18 +28,12 @@
   <img width="100%" src="https://github.com/hyeisunSong/Project-Bose/assets/163226022/ee3fec03-67ed-4f80-93b5-b64162a3bab9" alt="Project_bose7" />
 </p>
 
+
 ## 기능소개 - 회원가입
 https://github.com/hyeisunSong/Project-Bose/assets/163226022/80175b4e-758b-48c9-a2d5-84a8a4817351
 
-
-
-
 ## 기능소개 - 로그인
-<p aline="center">
-  <img width="50%" src="https://github.com/hyeisunSong/Project-Bose/assets/163226022/6c08a3c3-a59b-419c-9c15-8e6a84571f87" alt="Project_bose7" />
-</p>
+https://github.com/hyeisunSong/Project-Bose/assets/163226022/c30625ad-ce10-4cf3-a56a-c5a15c44b21c
 
 ## 기능소개 - 게시판
-<p aline="center">
-  <img width="50%" src="https://github.com/hyeisunSong/Project-Bose/assets/163226022/8ed8770c-f9c0-4d56-80a2-891d3dbaf787" alt="Project_bose7" />
-</p>
+https://github.com/hyeisunSong/Project-Bose/assets/163226022/82790a04-ef2c-4381-b611-5d57a8ae061c
