@@ -37,3 +37,8 @@
 <p aline="center">
   <img width="50%" src="https://github.com/hyeisunSong/Project-Bose/assets/163226022/6c08a3c3-a59b-419c-9c15-8e6a84571f87" alt="Project_bose7" />
 </p>
+
+## 기능소개 - 게시판
+<p aline="center">
+  <img width="50%" src="https://github.com/hyeisunSong/Project-Bose/assets/163226022/8ed8770c-f9c0-4d56-80a2-891d3dbaf787" alt="Project_bose7" />
+</p>
