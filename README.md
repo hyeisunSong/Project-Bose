@@ -27,3 +27,7 @@
 <p aline="center">
   <img width="100%" src="https://github.com/hyeisunSong/Project-Bose/assets/163226022/ee3fec03-67ed-4f80-93b5-b64162a3bab9" alt="Project_bose7" />
 </p>
+
+<p aline="center">
+  <img width="50%" src="https://github.com/hyeisunSong/Project-Bose/assets/163226022/26136572-1506-4bfd-beeb-9264f1129e59" alt="Project_bose7" />
+</p>
